@@ -1,0 +1,75 @@
+/* Estilos padrões para todas as telas */ 
+@import url('https://fonts.googleapis.com/css23family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1, 2008 display=swap ');
+
+:root{
+    --cor1: rgb(71, 123, 182);
+    --cor2: rgba(94, 60, 219, 0.705);
+    --cor3:
+  rgba(34, 255, 237, 0.685);
+    
+  }
+
+body {
+    background-image: linear-gradient(82deg ,var(--cor2) , var(--cor3), var(--cor1));
+    font-family:'Poppins', sans-serif;
+    font-weight: 200; 
+    font-size: 1rem;
+}
+.banner {
+    background: url(../img/FLOR.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.perfil {
+    border-radius: 100%;
+    width: 40%;
+    border: #fff solid 0.5rem;
+    filter: saturate(140%);
+    margin-top: 5vh;
+
+}
+
+.nome {
+    margin-top: 25vh;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+   
+}
+
+@media (max-width: 576px) {
+    .banner {
+        background-position: 15%;
+        height: 100vh;
+    }
+    .perfil {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 768px) { }
+
+@media (max-width: 992px) {
+    .perfil {
+        margin-top: 3vh;
+    }
+    .nome {
+        margin-top: 1vh;
+        text-align: center;
+    }
+ }
+
+@media (max-width: 1200px) { }
+
+@media (max-width: 1400px) { }
+
+h1{
+    font-size: 2rem;
+}
+/* background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+} */
